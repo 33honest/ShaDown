@@ -1,0 +1,80 @@
+.tc{
+		text-align: center;
+	}
+	#all{
+		width: 1000px;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.modal-content{
+		background-color: #fff;
+		padding: 10px;
+	}
+	.line-bottom{
+		border-bottom: 1px solid #E5E5E5;
+		padding-bottom: 10px;
+	}
+	.pt10{
+		padding-top: 10px;
+	}
+	
+	.toux{
+		width: 70px;
+		height: 70px;
+		float: left;
+	}
+	.touxText{
+		width: 700px;
+		margin-left: 20px;
+		float: left;
+	}
+	.w770{
+		width: 770px;
+	}
+	.fr{
+		float: right;
+	}
+	.acenter{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		height: 50px;  margin-top: -25px;
+		width: 300px;  margin-left: -150px;
+	}
+	.tipText{
+		font-size: 20px;
+		font-weight: bold;
+	}
+	.cr{
+		/*circle radius*/
+		border: 1px solid #ccc;
+		-webkit-border-radius: 8px;
+		-moz-border-radius: 8px;
+		border-radius: 8px;
+		behavior: url(css/PIE.htc);
+	}
+	.imgstyle{
+		float:left;
+		margin-left:200px;
+		margin-top: 25px;
+	}
+	.bs{
+		/*
+		一般情况：inset x-offset y-offset blur-radius spread-radius color，
+		【spread-radius扩展半径】来控制阴影的扩展方向：扩展半径有两个值，如果取值为正值，则个阴影会向外扩展，如果你给其取负值，整个阴影向内缩小。
+		*/
+
+		/* x-offset, y-offset, blur,和 color。*/
+		-webkit-box-shadow: 1px 1px 10px #aaa;
+		-moz-box-shadow: 	1px 1px 10px #aaa;
+		box-shadow: 		1px 1px 10px #aaa;
+		-pie-background: linear-gradient(#fff, #fff);/*gradient为渐变，现在设为白色，不然会变黑，见http://css3pie.com/*/
+		behavior: url(css/PIE.htc);
+	}
+	.bsrgb{
+		-webkit-box-shadow: 1px 1px 25px rgba(135, 135, 135, 0.96);
+		-moz-box-shadow:    1px 1px 25px rgba(135, 135, 135, 0.96);
+		box-shadow:         1px 1px 25px rgba(135, 135, 135, 0.96);
+		-pie-background: linear-gradient(#fff, #fff);/*gradient为渐变，现在设为白色，不然会变黑，见http://css3pie.com/*/
+		behavior: url(css/PIE.htc);
+	}

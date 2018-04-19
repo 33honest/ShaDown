@@ -1,0 +1,57 @@
+#activity{
+	float:left;
+	width: 450px;
+	height: 450px;
+}
+#act_font{
+	font-family: "微软雅黑";
+	font-weight: bold;
+}
+.act_context{
+	float:left;
+}
+#act_title{
+	text-decoration: none;
+	font-size: 20px;
+	font-family: "微软雅黑";
+	margin: 0 auto;
+	color: black;
+}
+#act_title:HOVER{
+	color: rgb(221, 88, 98); 
+}
+#act_text{
+	font-family: "微软雅黑";
+	width: 450px;
+	font-size: 12px;
+}
+#act_date{
+	margin-top: 25px;
+	color: rgb(200,200,200);
+	font-family: "微软雅黑"
+}
+
+
+.act2_context{
+	float:left;
+}
+#act2_title{
+	text-decoration: none;
+	font-size: 20px;
+	font-family: "微软雅黑";
+	margin: 0 auto;
+	color: black;
+}
+#act2_title:HOVER{
+	color: rgb(221, 88, 98); 
+}
+#act2_text{
+	font-family: "微软雅黑";
+	width: 450px;
+	font-size: 12px;
+}
+#act2_date{
+	margin-top: 25px;
+	color: rgb(200,200,200);
+	font-family: "微软雅黑"
+}

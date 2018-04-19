@@ -1,0 +1,45 @@
+
+#periodical{
+	width:1300px;
+	height:400px;
+	margin:20px auto;
+	overflow:hidden;
+	box-shadow: 2px 2px 22px #eaeaea;
+}
+#per_font{
+	font-family: "微软雅黑";
+	margin-left: 100px;
+	margin-top: 50px;
+}
+#per_title{
+	text-decoration: none;
+	font-size: 20px;
+	font-family: "微软雅黑";
+	margin: 0 auto;
+	color: black;
+}
+#per_title:HOVER{
+	color: rgb(221, 88, 98); 
+}
+#per_text{
+	font-family: "微软雅黑";
+	width: 450px;
+	font-size: 12px;
+}
+#per_date{
+	margin-top: 25px;
+	color: rgb(200,200,200);
+	font-family: "微软雅黑"
+}
+#per_show{
+	font-family: "微软雅黑";
+	margin-top: 15px;
+	color: rgb(150,150,150);
+	text-decoration:none;
+	float: right;
+}
+.per_context{
+	float:left;
+	margin-left:750px;
+	margin-top: -300px;
+}

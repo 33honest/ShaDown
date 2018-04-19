@@ -1,0 +1,50 @@
+#tail{
+	width:100%;height:120px;margin:0 auto;overflow:hidden;box-shadow: 2px 2px 22px #eaeaea;background: black;
+}
+#myinfo{
+	float:left;
+	margin-left:350px;
+	width: 500px;
+	font-family: "微软雅黑";
+	font-size:12px;
+	color: white;
+}
+@font-face {
+	font-family:"failfonts";
+	src:url('../static/shadow_font/a.otf');
+	}
+#myp{
+	margin:0 auto;
+	width:300px;
+	font-size:20px;
+	text-decoration: none;
+	color: white;
+	font-family:"failfonts";
+}
+#myinfo_1{
+	width: auto;height:40px;
+}
+
+#myinfo_text1{
+	font-size:12px;
+	color: white;
+	font-family: "微软雅黑";
+	text-align: center;
+	text-decoration: none;
+}
+#myinfo_text1:HOVER {
+	color:rgb(222, 93, 98);
+}
+#m_1{
+	color: white;
+}
+#myinfo_2{
+	width: auto;height:40px;
+	margin-top:-20px;
+}
+#myinfo_2 p{
+	text-align: center;
+	color: white;
+	font-family: "微软雅黑";
+	font-size:12px;
+}

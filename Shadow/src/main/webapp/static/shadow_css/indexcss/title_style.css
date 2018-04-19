@@ -1,0 +1,50 @@
+*{padding: 0;margin: 0}
+body{background: #FFFFFF}
+
+.nav{
+	
+	width: auto;
+	height: 50px;
+	background: rgba(245,245,245,0.95);
+	overflow: hidden;
+	position: relative;
+	box-shadow: 2px 2px 2px  #eaeaea;
+
+}
+.nav_li ul{
+	width: 1000px;
+	list-style: none;
+	margin: 0 auto;
+	position: relative;
+	height: 55px;
+	margin-top:10px;
+	z-index: 3;
+}
+.nav_li ul li{
+	width:10%;
+	height: 100%;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+.nav_li ul li a{
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	height: 100%;
+	font-size:10px;
+	color:rgba(0, 0, 0,1);
+	font-family: "幼圆";
+}
+h5{
+	font-weight: bold;
+}
+.nav_li ul li a:hover{
+	color: rgb(221, 88, 98);
+}
+.a{
+	width: 5px;
+	height: 5px;
+	position: absolute;
+	color: #e4b795;
+}
